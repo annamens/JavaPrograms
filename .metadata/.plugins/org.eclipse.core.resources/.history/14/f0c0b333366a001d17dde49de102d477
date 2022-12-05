@@ -1,0 +1,26 @@
+package javaPrograms;
+
+class emp {
+	
+	
+	int a ;
+	String s;
+	static String ceo;
+	static {
+		ceo = "Ratan Tata";
+	}
+	public void show() {
+		
+	}
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

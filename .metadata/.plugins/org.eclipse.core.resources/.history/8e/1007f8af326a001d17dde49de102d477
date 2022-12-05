@@ -1,0 +1,36 @@
+package javaPrograms;
+
+import java.util.Scanner;
+
+public class PerfectSquaresAndPerfectNumbers {
+
+	public static void main(String[] args) {
+		int a = 34;
+		int b = 100;
+		for (int i = 1; i <= b; i++) {
+			if (i * i > a && i * i < b)
+				System.out.println(i * i);
+		}
+		System.out.println("=======================");
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter first number ::");
+		int x = scanner.nextInt();
+		System.out.print("Enter second number ::");
+		int y = scanner.nextInt();
+		
+		while (x < y) {
+			int sum = 0;
+			for (int i = 1; i <= x / 2; i++) {
+				if (x % i == 0) {
+					sum = sum + i;
+				}
+			}
+			if (sum == x) {
+				System.out.print(x+" ");
+			}
+			x++;
+		}
+		 
+	}
+
+}

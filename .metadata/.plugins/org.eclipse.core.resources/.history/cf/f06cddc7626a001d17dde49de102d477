@@ -1,0 +1,15 @@
+package javaPrograms;
+
+public class Practise {
+
+	public static void main(String[] args) {
+		int n = 6;
+		int t1=0;
+		int t2=1;
+		while(n!=0) {
+			
+			
+			
+		}
+	}
+}

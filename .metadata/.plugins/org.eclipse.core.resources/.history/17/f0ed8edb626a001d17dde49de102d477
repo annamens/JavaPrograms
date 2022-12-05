@@ -1,0 +1,18 @@
+package javaPrograms;
+
+public class Practise {
+
+	public static void main(String[] args) {
+		int n = 6;
+		int t1=0;
+		int t2=1;
+		int sum=0;
+		while(n!=0) {
+			sum =t1+t2;
+			System.out.println(t1);
+			t1 = t2;
+			t2=sum;
+			
+		}
+	}
+}

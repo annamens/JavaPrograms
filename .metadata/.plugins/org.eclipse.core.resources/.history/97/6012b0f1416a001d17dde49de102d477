@@ -1,0 +1,17 @@
+package javaPrograms;
+
+public class Demo {
+	
+	 static public void main(String ... args) {
+		 
+		 String s = "nikhil";
+		 
+		 String sum ="";
+		 for(int i=s.length(); i>=0;i++) {
+			 sum = sum + s.charAt(i)
+		 }
+		 
+	 }
+
+
+}

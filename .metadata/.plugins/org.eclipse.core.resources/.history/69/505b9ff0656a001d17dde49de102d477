@@ -1,0 +1,32 @@
+package javaPrograms;
+
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+		int n = 153;
+		int z = count();
+		double sum = 0;
+		while (n != 0) {
+			double x = n % 10;
+
+			x = Math.pow(x, z);
+			sum = sum + x;
+			System.out.println(x);
+			n = n / 10;
+		}
+		System.out.println(sum);
+		if(sum==n) {
+			System.out.println("Armstrong number");
+		}
+	}
+	public static int count() {
+		int n = 153;
+		int count = 0;
+		while (n != 0) {
+			n = n / 10;
+			count++;
+		}
+		return count;
+	}
+
+}

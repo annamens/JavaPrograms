@@ -1,0 +1,33 @@
+package javaPrograms;
+
+public class ArmstrongNumber {
+	
+	public static void main(String[] args) {
+		int n = 1634;
+		int arm=n;
+		int temp = n;
+		int count = 0;
+		while (n != 0) {
+			n = n / 10;
+			count++;
+		}
+		
+		int z = count;
+		int sum = 0;
+		while (arm != 0) {
+			int x = arm % 10;
+
+			x = (int) Math.pow(x, z);
+			sum = sum + x;
+			arm= arm / 10;
+		}
+		System.out.println(sum);
+		if (sum == temp) {
+			System.out.println("Armstrong number");
+		} else {
+			System.out.println("Not an Armstrong number");
+
+		}
+	}
+
+}

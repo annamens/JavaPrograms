@@ -1,0 +1,21 @@
+package javaPrograms;
+
+class emp {
+	
+	
+	int salary ;
+	String eid;
+	static String ceo;
+	static {
+		ceo = "Ratan Tata";
+	}
+	public void show() {
+		eid= "Mahesh";
+		salary = 2000;
+	}
+	public static void main(String[] args) {
+		emp.ceo;
+
+	}
+
+}

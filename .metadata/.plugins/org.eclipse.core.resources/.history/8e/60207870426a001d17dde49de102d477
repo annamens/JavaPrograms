@@ -1,0 +1,18 @@
+package javaPrograms;
+
+public class Demo {
+	
+	 static public void main(String ... args) {
+		 
+		 String s = "nikhil";
+		 
+		 String sum ="";
+		 
+		 for(int i=s.length()-1; i>=0;i--) {
+			 sum = sum + s.charAt(i);
+		 }
+		 System.out.println(sum);
+	 }
+
+
+}
