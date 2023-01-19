@@ -1,0 +1,92 @@
+   64  ls
+   65  git cora
+   66  cd cora
+   67  ls
+   68  git remote -v
+   69  git add .
+   70  git remote add origin https://github.com/annamens/Selenium_project.git
+   71  git remote set -url origin https://github.com/annamens/Selenium_project.git
+   72  git remote set-url origin https://github.com/annamens/Selenium_project.git
+   73  git remote -v
+   74  git push -u origin
+   75  git remote -v
+   76  git push -u origin
+   77  cd cora/
+   78  s
+   79  lsl
+   80  ls
+   81  git status
+   82  git log
+   83  git fetch origin
+   84  git checkout -b 'develop/sannameni-test-account' 'origin/develop/sannameni-test-account'
+   85  git fetch origin
+   86  git checkout 'release/next'
+   87  git merge --no-ff 'develop/sannameni-test-account'
+   88  git push -f origin 'develop/sannameni-test-account'
+   89  git log
+   90  git reset --soft HEAD~1
+   91  git log
+   92  git reset --soft HEAD~1
+   93  git log
+   94  git push
+   95  git pull
+   96  git push
+   97  git log
+   98  git reset --soft HEAD~2
+   99  git push -f  origin 'develop/sannameni-test-account'
+  100  git status
+  101  git diff
+  102  q
+  103  git status
+  104  git stash
+  105  git status
+  106  git switch release/
+  107  git status
+  108  git branch
+  109  git fetch
+  110  git fetch release/next
+  111  git fetch 'release/next'
+  112  git checkout 'release/next'
+  113  git pull
+  114  git pull
+  115  git branch
+  116  git checkout 'origin/release/next'
+  117  git branch
+  118  git branch -d release/next
+  119  git switch develop/sannameni-test-account
+  120  git branch -d  origin/release/next
+  121  git branch
+  122  git switch master
+  123  git pull
+  124  git switch develop/sannameni-test-account
+  125  git stash pop
+  126  git status
+  127  git status
+  128  git branch
+  129  git stash
+  130  git status
+  131  git status
+  132  git pull
+  133  python
+  134  git branch
+  135  git pull origin release/next
+  136  git branch -l
+  137  git checkout origin release/next
+  138  git checkout --origin release/next
+  139  cd cora/
+  140  git branch
+  141  git fetch
+  142  git branch -r
+  143  git log
+  144  git branch -r
+  145  git checkout master
+  146  git branch
+  147  git branch develop/sannameni-test-account
+  148  git branch
+  149  git checkout develop/sannameni-test-account
+  150  git stash
+  151  git pull origin release/846-Jack-Russell-Cora
+  152  git pull origin release/846-Jack-Russell-Cora
+  153  git stash pop
+  154  history
+

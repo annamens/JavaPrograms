@@ -1,0 +1,76 @@
+What is s/w testing?
+Testing the software before going into production.
+
+Manual testing:
+As per requirements we write test cases and execute them accordingly.
+
+Functional Testing: Behaviour of application.
+
+Re-testing:Testing again and again with multiple sets of data.
+Regression:Re-validating the defects in the newer builds and because of them , there are no side effects
+We have already tested the build but because of that, it should not effect others.so, we need to test others
+
+Automation: Once automated a test case, we can execute the test n number of times.
+Automation came into picture because of re-testing and regression testing.
+-------------------------------------
+Functional testing tools
+1.QTP/UFT tool 
+2.Selenium
+-----------------------------------------
+Performance testing
+1.Jmeter
+2.LoadRunner
+------------------------------------------
+Test management tools
+Quality centre,
+MS VSTP
+---------------------
+Jira-->test mngmnt , defect mngmnt, dashboards
+------------------------------------------
+Selenium is functional and regression testing tool
+
+Adavantages:
+1.Open source tool(Free)
+2.Multiple languages-->Java, Python, c#, Ruby..
+3.Mutliple OS-->Windows, Linux, Mac
+4.Multiple browsers-->Chrome, Firefox, Edge(cross browser testing)
+5.Supports parallel testing
+6.Se can integrate multiple third party tools-->TestNG, cucumber, BDD
+Disadvantages:
+1.Only for web based application(not for window based application)-->Auto IT, sikuli
+2.Dedicated support--> Forums available
+3.No reporting facility-->TestNG, Extent reports
+4.Images based testing--> certain level
+
+----------------------------------
+Selenium--> is set 0f components/tools
+
+Selenium suite
+1.Selenium IDE
+2.Selenium Remote Control(RC)
+3.Selenium WebDriver
+4.Selenium grid
+
+Selenium 1-->IDE, RC, Webdriver, grid
+Selenium 2-->IDE, Webdriver, grid
+Selenium 3-->WebDriver, grid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
